@@ -1,0 +1,33 @@
+<IDOCTYPE html>
+    <html>
+    <head>
+    <title>Область с вырезами </title> <style>
+    .container { 
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(183, 129, 138);
+    }
+    .cutout {
+    position: absolute;
+    height:  100px; 
+    width: 100px; 
+    background-color: white;
+    }
+    .top-left{
+    top: 10px; 
+    left: 10px;
+    }
+    .bottom-right {
+    bottom: 10px; 
+    right: 10px; 
+    }
+    </style>
+    </head>
+    <body>
+    <div class="container"> 
+    <div class="cutout top-left"></div>
+    <div class="cutout bottom-right"></div>
+    </div>
+    </body> 
+    </html>
